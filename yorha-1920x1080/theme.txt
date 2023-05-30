@@ -2,33 +2,10 @@ title-text: ""
 title-color: "#dadada"
 title-font: "Comfortaa Bold 24"
 desktop-image: "background.png"
-terminal-font: "Comfortaa Bold 16"
 terminal-left: "0%"
 terminal-top: "0%"
 terminal-width: "100%"
 terminal-height: "100%"
-
-+ label {
-    left = 5%
-    top = 5%
-    height = 50
-    width = 10%
-    font = "Comfortaa Bold 36"
-    color = "#dadada"
-    align = "left"
-    text = "L O A D I N G"
-}
-
-+ label {
-    left = 18%
-    top = 70
-    height = 50
-    width = 10%
-    font = "Comfortaa Bold 24"
-    color = "#dadada"
-    align = "left"
-    text = "- BOOTING SYSTEM . . ."
-}
 
 + boot_menu {
     menu_pixmap_style = "boot_menu_*.png"
@@ -36,18 +13,19 @@ terminal-height: "100%"
     width = 50%
     top = 13%
     height = 90%
-    item_font = "Comfortaa Bold 18"
-    item_color = "#929292"
-    selected_item_font = "Comfortaa Bold 18"
+    item_font = "Comfortaa Bold 24"
+    item_color = "#c4a99a"
+    selected_item_font = "Comfortaa Bold 24"
     selected_item_color = "#dadada"
-    item_height = 25
-    item_padding = 20
+    item_height = 35
+    item_padding = 30
     item_spacing = 10
     scrollbar_width = 10
     scrollbar_thumb = "slider_*.png"
     
-    icon_width = 32
-    icon_height = 32
+    icon_width = 64
+    icon_height = 64
+    item_icon_space = 0
 }
 
 + label {
