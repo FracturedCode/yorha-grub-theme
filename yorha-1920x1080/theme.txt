@@ -13,9 +13,9 @@ terminal-height: "100%"
     width = 50%
     top = 13%
     height = 90%
-    item_font = "Comfortaa Bold 24"
+    item_font = "Comfortaa Bold 18"
     item_color = "#c4a99a"
-    selected_item_font = "Comfortaa Bold 24"
+    selected_item_font = "Comfortaa Bold 18"
     selected_item_color = "#dadada"
     item_height = 35
     item_padding = 30
