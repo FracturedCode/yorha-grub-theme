@@ -43,4 +43,4 @@ Edit your `/etc/default/grub` file to include `GRUB_THEME="/boot/grub/themes/ *f
 **For example:** `GRUB_THEME="/boot/grub/themes/yorha-1920x1080/theme.txt"`
 
 ### Step 3
-Finalize your changes with `sudo update-grub`
+Finalize your changes with `sudo update-grub` or `sudo grub-mkconfig -o /boot/grub/grub.cfg`.
