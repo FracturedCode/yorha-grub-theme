@@ -23,8 +23,8 @@ terminal-height: "100%"
     scrollbar_width = 10
     scrollbar_thumb = "slider_*.png"
     
-    icon_width = 64
-    icon_height = 64
+    icon_width = 40
+    icon_height = 42
     item_icon_space = 0
 }
 
