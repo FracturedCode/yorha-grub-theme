@@ -51,3 +51,7 @@ terminal-height: "100%"
     bar_style = "progress_bar_*.png"
     highlight_style = "progress_highlight_*.png"
 }
+
++ label {
+    font = "Hack Regular 12"
+}
